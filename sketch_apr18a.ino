@@ -6,11 +6,11 @@
 #include <HTTPClient.h>
 
 // Wi-Fi & Telegram Config
-const char* SSID     = "Deva";
-const char* PASS     = "12345678";
-const String BOT_TOK = "7774571503:AAHmXUZxbFPXxlIxT5XiRXqXXD2eDh4B34g";
-const String CHAT_ID = "1305125457";
-const String PASSWORD = "1234";
+const char* SSID     = "SSID"; //Replace with your Wi-Fi Name
+const char* PASS     = "PASSWORD"; // Replace with your Wi-Fi Password
+const String BOT_TOK = "BOT_TOKEN"; //Your Created Telegram Bot Token
+const String CHAT_ID = "TELEGRAM_ID"; //Your Telegram Chat ID
+const String PASSWORD = "1234"; //Set Password for the Vehicle
 
 // Hardware Pins
 const int LED_PIN = 2;
